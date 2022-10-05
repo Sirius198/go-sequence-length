@@ -19,6 +19,7 @@ func sequenceLength(input []int) int {
 		}
 	}
 
+	// maxLength: the longest length should be less than max number of input or the length of array
 	maxLength := max
 	if n < maxLength {
 		maxLength = n
