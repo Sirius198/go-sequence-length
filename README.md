@@ -20,7 +20,7 @@ func sequenceLength(input []int) int {
 	}
 
 	maxLength := max
-	if n > maxLength {
+	if n < maxLength {
 		maxLength = n
 	}
 
