@@ -10,8 +10,11 @@ import (
 func sequenceLength(input []int) int {
 	ctr := 0
 	n := len(input)
+	
+	// Sort the array in increasing order
 	sort.Ints(input)
 
+	// Get the maximum number of the array
 	max := input[0]
 	for _, value := range input {
 		if value > max {
