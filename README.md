@@ -1,5 +1,5 @@
 # go-sequence-length
-
+```
 package main
 
 import (
@@ -36,3 +36,4 @@ func main() {
 	input := []int{4, 12, 5, 4, 3, 5, 4, 3, 8}
 	fmt.Println(sequenceLength(input))
 }
+```
